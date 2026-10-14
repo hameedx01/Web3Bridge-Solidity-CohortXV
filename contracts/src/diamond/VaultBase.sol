@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {LibDiamond} from "lib/diamond-1-hardhat/contracts/libraries/LibDiamond.sol";
+import {LibDiamond} from "../../lib/diamond-1-hardhat/contracts/libraries/LibDiamond.sol";
 import {LibVault} from "./libraries/LibVault.sol";
 
 abstract contract VaultBase {
